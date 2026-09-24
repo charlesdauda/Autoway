@@ -44,8 +44,8 @@ const NavBar = () => {
                 </ul>
             </nav>
             <div className="ml-auto mr-30 flex translate-y-0.5 items-center space-x-2">
-                <a href="#signup" className="rounded-md bg-brand px-6 py-2 text-white transition hover:bg-brand-dark">Sign Up</a>
-                <a href="#login" className="px-6 py-2 border text-black transition rounded-md">Log In</a>
+                <a href="#signup" className="rounded-md font-semibold bg-brand px-6 py-2 text-white transition hover:bg-brand-dark">Sign Up</a>
+                <a href="#login" className="px-6 py-2 border font-semibold text-black transition rounded-md">Log In</a>
             </div>
         </header>
     )
